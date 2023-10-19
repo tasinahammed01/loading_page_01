@@ -8,12 +8,14 @@ import Main from "./Layout/Main";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>
+    element: <Main></Main>,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className="max-w-[1920px] mx-auto ">
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );
