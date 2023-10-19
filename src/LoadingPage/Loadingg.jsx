@@ -3,7 +3,7 @@ import { Hourglass } from "react-loader-spinner";
 const Loadingg = () => {
     return (
         <div className="bg-slate-800 w-full h-[100vh]">
-        <h1 className="absolute flex animate-pulse text-6xl font-medium text-white pt-[40vh] pl-[42%]">
+        <h1 className="absolute flex animate-pulse text-6xl font-medium text-white pt-[40vh] lg:pl-[42%] md:pl-[30%] pl-[10%]">
           Loading{" "}
           <Hourglass
             visible={true}
